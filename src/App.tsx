@@ -49,7 +49,7 @@ export const App: FC = () => {
           <Router>
             <Routes>
               <Route path="/*" element={<AppMenu />} />
-              <Route path="/issues" element={<IssuePage />} />
+              <Route path="/" element={<IssuePage />} />
             </Routes>
           </Router>
         </Box>
